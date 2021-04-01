@@ -30,7 +30,7 @@ public class AirplaneMenu {
         }
 
     }
-
+//ok
     public static void quit(){
         System.exit(0);
     }
