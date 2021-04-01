@@ -34,6 +34,7 @@ public class AirplaneMenu {
     public static void quit(){
         System.exit(0);
     }
+    //github change
     //prints out economy and first seat arrangement
     public static void showSeating(Economy economyClass,FirstClass firstClass ){
         seats[][] seatF = firstClass.getSeats();
@@ -47,7 +48,7 @@ public class AirplaneMenu {
         before+=seatF.length;
         System.out.println("Economy class:\n");
         clearSeats(seatE,before);
-        before+=seatE.length;  
+        before+=seatE.length;
     }
     //this is the columns
     public static String changeToLetter(int x){
